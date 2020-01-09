@@ -67,9 +67,8 @@ public class ContainerMapDAO implements ContainerDAO {
 	public boolean deleteContainer(ContainerEntity ce) {
 		boolean results = false;
 		try{
-		 	//TODO 
-			//containers.remove(ce);
-			results = true;
+			ContainerEntity ce_removed = containers.remove(ce.getId());
+			results = ce.equals(ce_removed);
 		} catch (Exception e){
 			results = false;
 			e.printStackTrace(System.out);
@@ -81,8 +80,8 @@ public class ContainerMapDAO implements ContainerDAO {
 	public boolean deleteAllContainers() {
 		boolean results = false;
 		try{
-		 containers.clear();
-		 results = true;
+			containers.clear();
+		 	results = true;
 		} catch (Exception e){
 			results = false;
 			e.printStackTrace(System.out);
