@@ -2,7 +2,7 @@
 
 ## Reefer Container Shipment Container Management
 
-This project is a component of the [Reefer Container Shipment reference implementation](https://ibm-cloud-architecture.github.io/refarch-kc/) of the [IBM Garage Event-Driven Architecture](https://ibm-cloud-architecture.github.io/refarch-eda/) reference architecture. The Container microservice - implemented with Java and the Spring Boot2 framework - is responsible for managing the inventory of refrigerated shipping containers, or reefer containers, and processing all of the events related to the container entity across the reference implementation.
+This project is a component of the [Reefer Container Shipment reference implementation](https://ibm-cloud-architecture.github.io/refarch-kc/) of the [IBM Garage Event-Driven Architecture](https://ibm-cloud-architecture.github.io/refarch-eda/) reference architecture. The Container Management microservice - implemented with Java and the Spring Boot2 framework - is responsible for managing the inventory of refrigerated shipping containers, or reefer containers, and processing all of the events related to the container entity across the reference implementation.
 
 For complete documentation on this project and its peer microservices, reference the **[Container Management](https://ibm-cloud-architecture.github.io/refarch-kc/microservices/container-management/)** microservice page in the [Reefer Container Shipment reference implementation](https://ibm-cloud-architecture.github.io/refarch-kc/) gitbook.
 
